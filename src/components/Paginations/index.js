@@ -1,7 +1,7 @@
 import React from 'react';
 import * as Paginations from '@trendmicro/react-paginations';
 import '@trendmicro/react-paginations/dist/react-paginations.css';
-import i18n from 'app/lib/i18n';
+import i18n from '../../lib/i18n';
 
 export const TablePagination = (props) => {
     return (

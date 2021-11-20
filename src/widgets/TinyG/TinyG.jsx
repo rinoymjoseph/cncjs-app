@@ -5,12 +5,12 @@ import mapValues from 'lodash/mapValues';
 import PropTypes from 'prop-types';
 import React, { PureComponent } from 'react';
 import { ProgressBar } from 'react-bootstrap';
-import controller from 'app/lib/controller';
-import mapGCodeToText from 'app/lib/gcode-text';
-import i18n from 'app/lib/i18n';
-import { Button } from 'app/components/Buttons';
-import Panel from 'app/components/Panel';
-import Toggler from 'app/components/Toggler';
+import controller from '../../lib/controller';
+import mapGCodeToText from '../../lib/gcode-text';
+import i18n from '../../lib/i18n';
+import { Button } from '../../components/Buttons';
+import Panel from '../../components/Panel';
+import Toggler from '../../components/Toggler';
 import Overrides from './Overrides';
 import {
     TINYG_MACHINE_STATE_INITIALIZING,
@@ -36,7 +36,7 @@ class TinyG extends PureComponent {
         actions: PropTypes.object
     };
 
-    // See src/app/controllers/TinyG/constants.js
+    // See src/../../controllers/TinyG/constants.js
     plannerBufferMax = 28; // default pool size
 
     plannerBufferMin = 0;

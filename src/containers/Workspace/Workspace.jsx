@@ -5,15 +5,15 @@ import pubsub from 'pubsub-js';
 import React, { PureComponent } from 'react';
 import ReactDOM from 'react-dom';
 import { withRouter } from 'react-router-dom';
-import { Button, ButtonGroup, ButtonToolbar } from 'app/components/Buttons';
-import api from 'app/api';
+import { Button, ButtonGroup, ButtonToolbar } from '../../components/Buttons';
+import api from '../../api';
 import {
     WORKFLOW_STATE_IDLE
-} from 'app/constants';
-import controller from 'app/lib/controller';
-import i18n from 'app/lib/i18n';
-import log from 'app/lib/log';
-import store from 'app/store';
+} from '../../constants';
+import controller from '../../lib/controller';
+import i18n from '../../lib/i18n';
+import log from '../../lib/log';
+import store from '../../store';
 import * as widgetManager from './WidgetManager';
 import DefaultWidgets from './DefaultWidgets';
 import PrimaryWidgets from './PrimaryWidgets';

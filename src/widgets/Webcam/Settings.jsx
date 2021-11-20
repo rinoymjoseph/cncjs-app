@@ -3,10 +3,10 @@ import PropTypes from 'prop-types';
 import React, { PureComponent } from 'react';
 import Select from 'react-select';
 import styled from 'styled-components';
-import Margin from 'app/components/Margin';
-import Modal from 'app/components/Modal';
-import i18n from 'app/lib/i18n';
-import log from 'app/lib/log';
+import Margin from '../../components/Margin';
+import Modal from '../../components/Modal';
+import i18n from '../../lib/i18n';
+import log from '../../lib/log';
 import {
     MEDIA_SOURCE_LOCAL,
     MEDIA_SOURCE_MJPEG

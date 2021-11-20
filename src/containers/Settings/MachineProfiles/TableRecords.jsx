@@ -2,17 +2,17 @@ import _get from 'lodash/get';
 import chainedFunction from 'chained-function';
 import PropTypes from 'prop-types';
 import React, { PureComponent } from 'react';
-import Anchor from 'app/components/Anchor';
-import { Button } from 'app/components/Buttons';
-import FormGroup from 'app/components/FormGroup';
-import { FlexContainer, Row, Col } from 'app/components/GridSystem';
-import Modal from 'app/components/Modal';
-import ModalTemplate from 'app/components/ModalTemplate';
-import Space from 'app/components/Space';
-import Table from 'app/components/Table';
-import { TablePagination } from 'app/components/Paginations';
-import portal from 'app/lib/portal';
-import i18n from 'app/lib/i18n';
+import Anchor from '../../../components/Anchor';
+import { Button } from '../../../components/Buttons';
+import FormGroup from '../../../components/FormGroup';
+import { FlexContainer, Row, Col } from '../../../components/GridSystem';
+import Modal from '../../../components/Modal';
+import ModalTemplate from '../../../components/ModalTemplate';
+import Space from '../../../components/Space';
+import Table from '../../../components/Table';
+import { TablePagination } from '../../../components/Paginations';
+import portal from '../../../lib/portal';
+import i18n from '../../../lib/i18n';
 import {
     MODAL_CREATE_RECORD,
     MODAL_UPDATE_RECORD

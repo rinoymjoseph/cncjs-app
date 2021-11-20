@@ -7,11 +7,11 @@ import PropTypes from 'prop-types';
 import React, { PureComponent } from 'react';
 import Repeatable from 'react-repeatable';
 import styled from 'styled-components';
-import { Button } from 'app/components/Buttons';
-import Dropdown, { MenuItem } from 'app/components/Dropdown';
-import Space from 'app/components/Space';
-import controller from 'app/lib/controller';
-import i18n from 'app/lib/i18n';
+import { Button } from '../../components/Buttons';
+import Dropdown, { MenuItem } from '../../components/Dropdown';
+import Space from '../../components/Space';
+import controller from '../../lib/controller';
+import i18n from '../../lib/i18n';
 import Fraction from './components/Fraction';
 import {
     IMPERIAL_UNITS,

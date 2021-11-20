@@ -2,14 +2,14 @@ import cx from 'classnames';
 import PropTypes from 'prop-types';
 import Slider from 'rc-slider';
 import React, { PureComponent } from 'react';
-import { Button } from 'app/components/Buttons';
-import Modal from 'app/components/Modal';
-import Space from 'app/components/Space';
-import { ToastNotification } from 'app/components/Notifications';
-import { Form, Input, Textarea } from 'app/components/Validation';
-import FormGroup from 'app/components/FormGroup';
-import i18n from 'app/lib/i18n';
-import * as validations from 'app/lib/validations';
+import { Button } from '../../../../components/Buttons';
+import Modal from '../../../../components/Modal';
+import Space from '../../../../components/Space';
+import { ToastNotification } from '../../../../components/Notifications';
+import { Form, Input, Textarea } from '../../../../components/Validation';
+import FormGroup from '../../../../components/FormGroup';
+import i18n from '../../../../lib/i18n';
+import * as validations from '../../../../lib/validations';
 import styles from '../form.styl';
 
 class CreateRecord extends PureComponent {

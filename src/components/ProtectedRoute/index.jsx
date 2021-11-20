@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route, Redirect, withRouter } from 'react-router-dom';
-import * as user from 'app/lib/user';
-import log from 'app/lib/log';
+import * as user from '../../lib/user';
+import log from '../../lib/log';
 
 const ProtectedRoute = ({ component: Component, ...rest }) => (
     <Route

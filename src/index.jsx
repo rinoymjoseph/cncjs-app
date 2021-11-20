@@ -13,7 +13,7 @@ import i18next from 'i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 import XHR from 'i18next-xhr-backend';
 import { TRACE, DEBUG, INFO, WARN, ERROR } from 'universal-logger';
-import { Provider as GridSystemProvider } from 'app/components/GridSystem';
+import { Provider as GridSystemProvider } from './components/GridSystem';
 import settings from './config/settings';
 import portal from './lib/portal';
 import controller from './lib/controller';

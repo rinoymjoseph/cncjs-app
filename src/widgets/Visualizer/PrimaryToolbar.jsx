@@ -3,13 +3,13 @@ import classNames from 'classnames';
 import colornames from 'colornames';
 import PropTypes from 'prop-types';
 import React, { PureComponent } from 'react';
-import { Button } from 'app/components/Buttons';
-import Dropdown, { MenuItem } from 'app/components/Dropdown';
-import I18n from 'app/components/I18n';
-import Space from 'app/components/Space';
-import controller from 'app/lib/controller';
-import i18n from 'app/lib/i18n';
-import * as WebGL from 'app/lib/three/WebGL';
+import { Button } from '../../components/Buttons';
+import Dropdown, { MenuItem } from '../../components/Dropdown';
+import I18n from '../../components/I18n';
+import Space from '../../components/Space';
+import controller from '../../lib/controller';
+import i18n from '../../lib/i18n';
+import * as WebGL from '../../lib/three/WebGL';
 import {
     // Grbl
     GRBL,
@@ -50,7 +50,7 @@ import {
     TINYG_MACHINE_STATE_PANIC,
     // Workflow
     WORKFLOW_STATE_IDLE
-} from 'app/constants';
+} from '../../constants';
 import styles from './index.styl';
 
 class PrimaryToolbar extends PureComponent {

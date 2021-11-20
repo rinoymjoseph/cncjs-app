@@ -3,9 +3,9 @@ import ensureArray from 'ensure-array';
 import get from 'lodash/get';
 import PropTypes from 'prop-types';
 import React, { PureComponent } from 'react';
-import Space from 'app/components/Space';
-import controller from 'app/lib/controller';
-import i18n from 'app/lib/i18n';
+import Space from '../../components/Space';
+import controller from '../../lib/controller';
+import i18n from '../../lib/i18n';
 import styles from './index.styl';
 
 class Spindle extends PureComponent {

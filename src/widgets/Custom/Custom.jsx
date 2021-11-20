@@ -4,13 +4,13 @@ import pubsub from 'pubsub-js';
 import PropTypes from 'prop-types';
 import React, { PureComponent } from 'react';
 import ReactDOM from 'react-dom';
-import settings from 'app/config/settings';
-import store from 'app/store';
-import Iframe from 'app/components/Iframe';
-import ResizeObserver from 'app/lib/ResizeObserver';
-import controller from 'app/lib/controller';
-import i18n from 'app/lib/i18n';
-import log from 'app/lib/log';
+import settings from '../../config/settings';
+import store from '../../store';
+import Iframe from '../../components/Iframe';
+import ResizeObserver from '../../lib/ResizeObserver';
+import controller from '../../lib/controller';
+import i18n from '../../lib/i18n';
+import log from '../../lib/log';
 import styles from './index.styl';
 
 class Custom extends PureComponent {

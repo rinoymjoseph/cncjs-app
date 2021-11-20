@@ -10,15 +10,15 @@ import _isEqual from 'lodash/isEqual';
 import pubsub from 'pubsub-js';
 import React, { PureComponent } from 'react';
 import { Link, withRouter } from 'react-router-dom';
-import api from 'app/api';
+import api from '../../api';
 import {
     ERR_CONFLICT,
     ERR_PRECONDITION_FAILED
-} from 'app/api/constants';
-import settings from 'app/config/settings';
-import Breadcrumbs from 'app/components/Breadcrumbs';
-import i18n from 'app/lib/i18n';
-import store from 'app/store';
+} from '../../api/constants';
+import settings from '../../config/settings';
+import Breadcrumbs from '../../components/Breadcrumbs';
+import i18n from '../../lib/i18n';
+import store from '../../store';
 import General from './General';
 import Workspace from './Workspace';
 import MachineProfiles from './MachineProfiles';

@@ -5,9 +5,9 @@ import pick from 'lodash/pick';
 import PropTypes from 'prop-types';
 import React, { PureComponent } from 'react';
 import { Dropdown, MenuItem } from 'react-bootstrap';
-import Space from 'app/components/Space';
-import i18n from 'app/lib/i18n';
-import log from 'app/lib/log';
+import Space from '../../components/Space';
+import i18n from '../../lib/i18n';
+import log from '../../lib/log';
 import {
     // Grbl
     GRBL,

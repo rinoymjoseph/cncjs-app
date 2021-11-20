@@ -7,17 +7,17 @@ import mapValues from 'lodash/mapValues';
 import pubsub from 'pubsub-js';
 import PropTypes from 'prop-types';
 import React, { PureComponent } from 'react';
-import Anchor from 'app/components/Anchor';
-import { Button } from 'app/components/Buttons';
-import ModalTemplate from 'app/components/ModalTemplate';
-import Modal from 'app/components/Modal';
-import Widget from 'app/components/Widget';
-import controller from 'app/lib/controller';
-import i18n from 'app/lib/i18n';
-import log from 'app/lib/log';
-import portal from 'app/lib/portal';
-import * as WebGL from 'app/lib/three/WebGL';
-import { in2mm } from 'app/lib/units';
+import Anchor from '../../components/Anchor';
+import { Button } from '../../components/Buttons';
+import ModalTemplate from '../../components/ModalTemplate';
+import Modal from '../../components/Modal';
+import Widget from '../../components/Widget';
+import controller from '../../lib/controller';
+import i18n from '../../lib/i18n';
+import log from '../../lib/log';
+import portal from '../../lib/portal';
+import * as WebGL from '../../lib/three/WebGL';
+import { in2mm } from '../../lib/units';
 import WidgetConfig from '../WidgetConfig';
 import PrimaryToolbar from './PrimaryToolbar';
 import SecondaryToolbar from './SecondaryToolbar';
@@ -803,7 +803,7 @@ class VisualizerWidget extends PureComponent {
                         ...state.machinePosition,
                         ...mpos
                     },
-                    // Work position are reported in current units, and also apply any offsets.
+                    // Work position are reported in current units, and also ../..ly any offsets.
                     workPosition: mapValues({
                         ...state.workPosition,
                         ...wpos

@@ -1,5 +1,5 @@
-import api from 'app/api';
-import config from 'app/store';
+import api from '../api';
+import config from '../store';
 
 let _authenticated = false;
 

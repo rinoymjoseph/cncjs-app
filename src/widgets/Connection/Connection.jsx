@@ -6,10 +6,10 @@ import cx from 'classnames';
 import PropTypes from 'prop-types';
 import React, { PureComponent } from 'react';
 import Select from 'react-select';
-import Space from 'app/components/Space';
-import { ToastNotification } from 'app/components/Notifications';
-import controller from 'app/lib/controller';
-import i18n from 'app/lib/i18n';
+import Space from '../../components/Space';
+import { ToastNotification } from '../../components/Notifications';
+import controller from '../../lib/controller';
+import i18n from '../../lib/i18n';
 import {
     GRBL,
     MARLIN,

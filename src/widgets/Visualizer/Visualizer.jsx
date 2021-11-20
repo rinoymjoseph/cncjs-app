@@ -12,12 +12,12 @@ import * as THREE from 'three';
 import {
     IMPERIAL_UNITS,
     METRIC_UNITS
-} from 'app/constants';
-import CombinedCamera from 'app/lib/three/CombinedCamera';
-import TrackballControls from 'app/lib/three/TrackballControls';
-import * as WebGL from 'app/lib/three/WebGL';
-import log from 'app/lib/log';
-import store from 'app/store';
+} from '../../constants';
+import CombinedCamera from '../../lib/three/CombinedCamera';
+import TrackballControls from '../../lib/three/TrackballControls';
+import * as WebGL from '../../lib/three/WebGL';
+import log from '../../lib/log';
+import store from '../../store';
 import { getBoundingBox, loadSTL, loadTexture } from './helpers';
 import Viewport from './Viewport';
 import CoordinateAxes from './CoordinateAxes';

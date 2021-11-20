@@ -4,11 +4,11 @@ import map from 'lodash/map';
 import classNames from 'classnames';
 import PropTypes from 'prop-types';
 import React, { PureComponent } from 'react';
-import Space from 'app/components/Space';
-import Widget from 'app/components/Widget';
-import controller from 'app/lib/controller';
-import i18n from 'app/lib/i18n';
-import { in2mm, mapValueToUnits } from 'app/lib/units';
+import Space from '../../components/Space';
+import Widget from '../../components/Widget';
+import controller from '../../lib/controller';
+import i18n from '../../lib/i18n';
+import { in2mm, mapValueToUnits } from '../../lib/units';
 import WidgetConfig from '../WidgetConfig';
 import Probe from './Probe';
 import RunProbe from './RunProbe';
@@ -169,7 +169,7 @@ class ProbeWidget extends PureComponent {
                 gcode('; A dwell time of one second'),
                 gcode('G4 P1'),
 
-                // Apply touch plate height with tool length offset
+                // ../..ly touch plate height with tool length offset
                 gcode('; Set tool length offset'),
                 gcode('G43.1', {
                     [probeAxis]: towardWorkpiece ? `[${posname}-${touchPlateHeight}]` : `[${posname}+${touchPlateHeight}]`
